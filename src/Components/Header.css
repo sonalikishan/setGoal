@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Young+Serif&display=swap');
+*
+{
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Young Serif', serif;
+}
+nav{
+  background-color: #DDA5DF;
+  opacity: 0.3;
+  color:black;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container{
+  background-color: #DDA5DF;
+  background-color: transparent;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+.container > form
+{
+  display:flex;
+  flex-direction: column;
+}
+.container > form > input,textarea,button
+{
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0,214);
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+button{
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+button:hover
+{
+  background-color: #99039D;
+}
+.container > h1 {
+  text-align: center;
+}
+.container > form > textarea
+{
+  height: 30vh;
+}
+
+.task{
+display:flex;
+padding:30px;
+background-color: white;
+margin:10px;
+}
+.task > div{
+  width:100%;
+}
+.task button {
+  border-radius: 100%;
+  width: 30px;
+  height:30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.task span{
+  color: grey;
+}
+body{
+  background-image: url("https://a-z-animals.com/media/2022/11/shutterstock_606517310-1024x650.jpg");
+}
